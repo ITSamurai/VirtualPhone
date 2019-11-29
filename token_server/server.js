@@ -14,11 +14,11 @@ app.use(allowCrossDomain);
 
 app.get('/token', (req, res) => {
   // put your Twilio API credentials here
-  const accountSid = 'ACd178723f0915fdcb9481aa8d0eacc8e7';
-  const authToken = 'c838a576a48f36810591b1799be0f3c8';
+  const accountSid = '';
+  const authToken = '';
 
   // put your Twilio Application Sid here
-  const appSid = 'APb349bff706541055fff06f42d08f4a08';
+  const appSid = '';
 
   const capability = new ClientCapability({
     accountSid: accountSid,
